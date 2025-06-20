@@ -151,4 +151,45 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-      
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .duyuru-kutu,
+    .etkinlik-kart,
+    .katil-formu,
+    .galeri-grid {
+      width: 90%;
+      margin: 0 auto 20px auto;
+    }
+  
+    .galeri-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .katil-formu input,
+    .katil-formu textarea,
+    .katil-formu button {
+      font-size: 16px;
+    }
+  
+    header h1,
+    .giris h2,
+    .duyurular h2,
+    .etkinlikler h2,
+    .katil-formu h2,
+    .galeri h2 {
+      font-size: 24px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+        
